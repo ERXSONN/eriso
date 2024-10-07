@@ -11,3 +11,21 @@ def fibonacci(n):
 
 num = int(input("Por favor, informe um número: "))
 fibonacci(num)
+############################################################
+
+def count_a_in_string(string):
+    count = string.lower().count('a')  
+    if count > 0:
+        print(f"A letra 'a' aparece {count} vezes na string.")
+    else:
+        print("A letra 'a' não aparece na string.")
+
+string_input = input("Por favor, insira uma string: ")
+count_a_in_string(string_input)
+############################################################
+
+int INDICE = 12, SOMA = 0, K = 1;
+while (K < INDICE) {
+    K = K + 1;
+    SOMA = SOMA + K;
+}
